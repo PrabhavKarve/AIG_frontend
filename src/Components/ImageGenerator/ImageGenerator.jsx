@@ -41,6 +41,7 @@ const ImageGenerator = () => {
 
         let data = await response.json();
         let dataArray = data.data
+        console.log(dataArray)
         setImage_url(dataArray[0].url)
         setloading(false)
     }
