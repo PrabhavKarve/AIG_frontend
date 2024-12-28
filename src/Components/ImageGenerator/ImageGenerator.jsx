@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom';
 
 const ImageGenerator = () => {
     const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
-    console.log(process.env)
     const navigate = useNavigate();
     const [image_url, setImage_url] = useState("/")
     const [loading, setloading] = useState(false)
@@ -42,8 +41,6 @@ const ImageGenerator = () => {
 
         let data = await response.json();
         let dataArray = data.data
-        console.log(dataArray)
-        console.log(apiKey)
         setImage_url(dataArray[0].url)
         setloading(false)
     }
