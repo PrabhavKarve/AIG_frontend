@@ -15,7 +15,7 @@ function Login() {
         e.preventDefault();
 
         try {
-            await axios.post(api_url +"/", {
+            await axios.post(api_url +"/login", {
                 email, password
             },  {
                 headers: {
