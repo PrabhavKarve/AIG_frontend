@@ -27,6 +27,7 @@ function SignUp() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
+                withCredentials: true
             })
             .then(res => {
                 if (res.data === "exist") {

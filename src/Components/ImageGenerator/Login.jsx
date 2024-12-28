@@ -21,6 +21,7 @@ function Login() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
+                withCredentials: true
             })
             .then(res => {
                 console.log("login req sent")
