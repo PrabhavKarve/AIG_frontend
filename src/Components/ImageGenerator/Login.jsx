@@ -48,11 +48,50 @@ function Login() {
 
     }
 
+    async function setGuestCredentials(e) {
+        e.preventDefault()
+        setPassword("guest");
+        setEmail("guest");
+        try {
+            await axios.post(api_url +"/login", {
+                email, password
+            },  {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                withCredentials: true
+            })
+            .then(res => {
+                console.log("login req sent")
+                if (res.data === "exist") {
+                    console.log("login response received + " + email)
+                    localStorage.setItem('userEmail', email);
+                    navigate("/home", { state: { id: email } });
+                    console.log("home")
+                } else if (res.data === "notexist") {
+                    alert("User has not signed up");
+                } else if (res.data === "invalidpassword") {
+                    alert("Incorrect password");
+                }
+            })
+            .catch(e => {
+                alert("Wrong details");
+                console.log(e);
+            });
+        }
+        catch(e){
+            console.log(e);
+        }
+
+    }
+
 
     return (
         <div className="login_container">
-
-            <h1 className="header2">Login</h1>
+            <div className="header-container">
+                    <h1 className="header2">Login or</h1>
+                    <Link className="guest_btn2" onClick={setGuestCredentials}>Enter as guest</Link>
+            </div>
 
             <form action="POST" className='login_box'>
                 <input className='search_input2' type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email"  />

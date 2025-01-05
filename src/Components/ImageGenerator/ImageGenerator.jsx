@@ -4,7 +4,7 @@ import def_image from "../Assets/default_image.svg"
 import { useNavigate } from 'react-router-dom';
 
 const ImageGenerator = () => {
-    const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
+    const apiKey = process.env.REACT_APP_OPENAI;
     const navigate = useNavigate();
     const [image_url, setImage_url] = useState("/")
     const [loading, setloading] = useState(false)

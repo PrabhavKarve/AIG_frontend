@@ -1,0 +1,95 @@
+[33mcommit 7de983cb0cd8b61e57df13ab6da3c1604e83292a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sun Jan 5 10:30:21 2025 -0500
+
+    guest login
+
+[33mcommit fe74f827d5688816c37e6b035e9e5a7b1178853a[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 13:43:59 2024 -0500
+
+    CORS updated index.js
+
+[33mcommit 127b09ff967065367b2a85f927c28cb5e31eed0b[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 13:43:02 2024 -0500
+
+    CORS updated index.js
+
+[33mcommit 0d5775c59811b2ee52a44ef937ac08ecf12fe206[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 13:41:37 2024 -0500
+
+    CORS updated index.js
+
+[33mcommit 29bbe8d39ebde2ebe8760a5cff8bfbbf42c05967[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 13:36:06 2024 -0500
+
+    updated key
+
+[33mcommit 64122cb5025522997db0f2ef3a4f16b27cba4024[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Prabhav Karve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 13:54:03 2024 -0500
+
+    Update ImageGenerator.jsx
+
+[33mcommit 15628bce22b0596180afd906639d294a5cc236ba[m
+Author: Prabhav Karve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 13:46:20 2024 -0500
+
+    Update ImageGenerator.jsx
+
+[33mcommit 88b1b53c596486a0e0b2bb10e52dd38ecccd9d73[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 13:11:27 2024 -0500
+
+    CORS updated index.js
+
+[33mcommit 066fe9110b82a36856ce8c8454546c9b30db0689[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 13:04:37 2024 -0500
+
+    CORS updated index.js
+
+[33mcommit 841cf37aa648671666d06e765ee0564afb23f85f[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 12:49:23 2024 -0500
+
+    CORS updated index.js
+
+[33mcommit 89d8d7cc80b7dfc4901abeca508f0df276149c96[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 12:41:58 2024 -0500
+
+    CORS updated index.js
+
+[33mcommit cb05e08ef9093ab788705dea4510cbd9db0970b2[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 12:41:31 2024 -0500
+
+    CORS updated index.js
+
+[33mcommit 89f2b497034318a449f8bc15f3595f3128a4fe37[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Sat Dec 28 00:00:28 2024 -0500
+
+    corrected url /
+
+[33mcommit 2a18e145971f0835b44c710c091827cc921858e9[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Fri Dec 27 23:05:34 2024 -0500
+
+    corrected endpoint
+
+[33mcommit b2339ed46acfde315cd462bb0c6568814460e449[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Fri Dec 27 19:51:50 2024 -0500
+
+    modified endpoint with aws url
+
+[33mcommit 6911295080f0abb6f9909f11c843d4fd7f944b95[m
+Author: PrabhavKarve <karve.prabhav@gmail.com>
+Date:   Fri Dec 27 18:12:13 2024 -0500
+
+    AI image generator frontend
