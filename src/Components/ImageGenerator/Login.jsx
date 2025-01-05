@@ -54,7 +54,7 @@ function Login() {
         setEmail("guest");
         try {
             await axios.post(api_url +"/login", {
-                email, password
+                email: "email", password: "email"
             },  {
                 headers: {
                     'Content-Type': 'application/json',
@@ -64,9 +64,9 @@ function Login() {
             .then(res => {
                 console.log("login req sent")
                 if (res.data === "exist") {
-                    console.log("login response received + " + email)
-                    localStorage.setItem('userEmail', email);
-                    navigate("/home", { state: { id: email } });
+                    console.log("login response received + " + "guest")
+                    localStorage.setItem('userEmail', "guest");
+                    navigate("/home", { state: { id: "guest" } });
                     console.log("home")
                 } else if (res.data === "notexist") {
                     alert("User has not signed up");
