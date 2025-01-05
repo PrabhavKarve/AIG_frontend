@@ -54,7 +54,7 @@ function Login() {
         setEmail("guest");
         try {
             await axios.post(api_url +"/login", {
-                email: "email", password: "email"
+                email: "guest", password: "guest"
             },  {
                 headers: {
                     'Content-Type': 'application/json',
